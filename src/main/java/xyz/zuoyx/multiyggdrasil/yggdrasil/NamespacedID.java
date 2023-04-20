@@ -23,9 +23,9 @@ import java.util.regex.Pattern;
 
 public class NamespacedID {
 
-    public static final char NAMESPACE_SEPARATOR = '.';
+    public static final char NAMESPACE_SEPARATOR = '|';
     public static final String MOJANG_NAMESPACE = "mojang";
-    public static final String UNKNOWN_NAMESPACE = "E";
+    public static final String UNKNOWN_NAMESPACE = "alt";
 
     private static final Pattern VALID_NAMESPACE = Pattern.compile("[a-z0-9_-]+");
 
